@@ -1,0 +1,27 @@
+{
+  "name": "workshop1_mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js && node dist/seed.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "workshop1_mcp": "dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "shx": "^0.4.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0"
+  }
+}
