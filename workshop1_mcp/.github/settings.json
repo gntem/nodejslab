@@ -1,17 +1,3 @@
 {
-    "chat.mcp.enabled": true,
-    "mcp": {
-        "servers": {
-            "leaderboards": {
-                "type": "stdio",
-                "command": "docker",
-                "args": [
-                    "run",
-                    "-i",
-                    "--rm",
-                    "workshop1_mcp:latest"
-                ]
-            }
-        }
-    }
+  "chat.mcp.discovery.enabled": true
 }
